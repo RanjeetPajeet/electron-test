@@ -1,0 +1,11 @@
+
+Electron Commands:
+
+    > npm run start
+      - Run the application in (local) developer mode
+
+    > npm run make
+      - Package the app into a distributable (.exe) file
+
+
+

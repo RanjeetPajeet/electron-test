@@ -1,0 +1,33 @@
+<!---------------------------------------------------
+*                                                   *
+*   index.html                                      *
+*                                                   *
+*   ...                                             *
+*                                                   *
+---------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <meta
+            http-equiv="X-Content-Security-Policy"
+            content="default-src 'self'; script-src 'self'"
+        />
+        <title>Hello from Electron renderer!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="roboto">Hello from Electron renderer!</h1>
+        <p>👋</p>
+        <p class="roboto-italic" id="info"></p>
+        <button id="testbutton">Test Button</button>
+    </body>
+    <script src="../renderer.js"></script>
+</html>
+
+
